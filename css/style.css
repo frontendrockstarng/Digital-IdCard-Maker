@@ -1,0 +1,195 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.whole-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3% 0;
+    flex-direction: column;
+    width: 100%;
+}
+
+.employee-card{
+    background: url('https://res.cloudinary.com/colt-copy/image/upload/v1614965135/Untitled_design_11_jhzcj4.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 30%;
+    border-radius: 5px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+    padding-bottom: 1%;
+    box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.21);
+}
+
+.user-img-div, .profile-details{
+    width: 70%;
+    margin-top: 7%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-details{
+    margin-top: 0;
+}
+
+.user-img{
+    width: 200px;
+    height:200px;
+    border-radius: 50%;
+}
+
+.card-title{
+    display:flex;
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3%;
+    color: #ffffff;
+}
+
+#profile-btn{
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    border-radius: 50px;
+}
+
+.profile-details{
+    flex-direction: column;
+}
+
+.work-info, .duties{
+    display: flex;
+}
+
+.work-info{
+    width:80%;
+    justify-content: space-evenly;
+}
+
+.duties{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.duties p{
+    font-weight: 600;
+    word-spacing: 15px;
+}
+
+.form-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    padding-top: 3%;
+}
+
+.the-form{
+    width: 70%;
+}
+
+#registerbtn{
+    margin-left: 45%;
+    width: 20%;
+}
+
+.line-border{
+    margin-top: 0;
+    border-bottom: 1px solid rgb(228, 110, 67);
+    width:35px;
+    height: 0;
+    margin-bottom: 2%;
+}
+
+.fullname{
+    margin-top: 0;
+    line-height: 1.2em;
+}
+
+.surname{
+    margin-bottom: 0;
+}
+
+.div1{
+    width: 30%;
+    display: flex;
+
+    margin-bottom: 3%;
+}
+
+.whole-wrapper2{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.img-output{
+    width: 100px;
+    height: 100px;
+    background-color: azure;
+}
+
+
+
+.medium-2{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.row{
+    width: 100%;
+   
+}
+
+.profile-pic {
+    display: flex;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-image: url("https://res.cloudinary.com/colt-copy/image/upload/v1619542414/Untitled_design_24_igkmt8.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.file-upload {
+    display: none!important;
+}
+.circle {
+    border-radius: 50% !important;
+ 
+    border: 8px solid rgba(170, 170, 170, 0.7);
+   
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+.p-image {
+  position: absolute;
+  color: #666666;
+  transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
+}
+.p-image:hover {
+  transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
+}
+.upload-button {
+  font-size: 1.2em;
+
+}
+
+.upload-button:hover {
+  transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
+  color: #999;
+}
